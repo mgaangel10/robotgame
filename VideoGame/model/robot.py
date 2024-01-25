@@ -24,5 +24,6 @@ class Robot(pygame.sprite.Sprite):
             self.cuerpoRobot.y += dy
         else:
             self.salud -= 1
+            time.sleep(0.5)
 
     
