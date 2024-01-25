@@ -1,5 +1,5 @@
 import pygame
-
+import time
 
 class Robot(pygame.sprite.Sprite):
     def __init__(self,x,y,ventana_horizontal,ventana_vertical):
@@ -19,7 +19,10 @@ class Robot(pygame.sprite.Sprite):
             self.cuerpoRobot.x += dx
         else:
             self.salud -= 1
+            time.sleep(0.5)
         if 0 <= self.cuerpoRobot.y + dy < self.ventana_vertical - self.cuerpoRobot.height:
             self.cuerpoRobot.y += dy
         else:
             self.salud -= 1
+
+    
