@@ -4,8 +4,8 @@ import time
 class Robot(pygame.sprite.Sprite):
     def __init__(self,x,y,ventana_horizontal,ventana_vertical):
         super().__init__()
-        self.imagen = pygame.image.load("imagenes/robot.png")
-        self.imagen = pygame.transform.scale(self.imagen, (50, 50))
+        self.imagen = pygame.image.load("imagenes/steve_front.png")
+        self.imagen = pygame.transform.scale(self.imagen, (110, 110))
         self.cuerpoRobot=self.imagen.get_rect()
         self.cuerpoRobot.x = x
         self.cuerpoRobot.y=y
