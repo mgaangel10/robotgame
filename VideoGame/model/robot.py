@@ -26,4 +26,23 @@ class Robot(pygame.sprite.Sprite):
             self.salud -= 1
             time.sleep(0.5)
 
+
+class Lava():
+
+    def __init__(self,ejex,ejey):
+        self.imagen = pygame.image.load("imagenes/lava.png")
+        self.imagen = pygame.transform.scale(self.imagen, (50, 50))
+        self.cuerpoLava=self.imagen.get_rect()
+        self.ejex= ejex
+        self.ejey= ejey
+
+    robot = Robot(300, 300, 990, 780)
+
+    def colision(lava, robot):
+        if robot.cuerpoRobot.x == lava.ejex:
+            robot.cuerpoRobot.x -= 1
+        else:
+            time.sleep(0.5)
+
+
     
