@@ -1,0 +1,21 @@
+B:4,D:4,T:1
+MMMMMMMMMMMMMMMMMMMMMMMMMMM
+M                         M
+M   AAAAAAAAA             M
+M   AAAA  AAAAA           M
+M                         M
+M                         M
+M                MMMMMMM  M
+M       T        M    DD  M
+M                M        M
+M                M        M
+M                M        M
+M                M        M
+M                M        M
+MMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+
+
+
+
+
